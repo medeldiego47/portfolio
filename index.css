@@ -7,6 +7,7 @@
     --headerColor: rgb(59, 59, 72);
     --paragraphColor: #626262;
 }
+/*header and body setup*/
 header{background-color:var(--headerColor);
 text-align:center;
 padding:30px; color:rgb(225, 239, 242);
@@ -25,21 +26,21 @@ h1{text-align:center;
 
 .c1{display:flex;justify-content: space-around;
 align-items:center;}
-
+/*nav bar*/
 nav{width:100%; height: 32px; background-color: #626262;
 }
 li{list-style: none;
     text-decoration: none;
     font-size: 18px;
 }
-
+/*flex items*/
 .container{display:flex;
 justify-content: center;}
 
 .container2{display:flex;
 justify-content:center;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size:24px;}
+font-size:24px;flex-basis:90%;}
 .container3 {display:flex;
     flex-wrap:wrap;
     justify-content:space-evenly
@@ -48,4 +49,12 @@ font-size:24px;}
 .container4{display:inline-flexbox;
 text-align:center;
 }
-img:hover{width: 500px; height:500px}
+/* image borders and caption borders*/
+.img{
+    width: 450px}
+img:hover{width: 470px; height: 500px;}
+
+img{border:10px solid black;border-radius:10px;}
+
+.cap{border:5px solid black; border-radius:5px;height:fit-content;background-color:black;}
+
