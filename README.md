@@ -23,6 +23,6 @@ Actions:
 
 
 Deployment:
-https://medeldiego47.github.io/week2/
+https://medeldiego47.github.io/portfolio/
 
 ![image](https://user-images.githubusercontent.com/109823956/183531300-c3c92ae2-07dd-463b-9c97-d20139636422.png)
